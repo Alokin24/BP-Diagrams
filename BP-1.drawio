@@ -1,1 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2020-11-11T16:35:17.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" version="13.9.6" etag="3Cr5ILB8LjKLM73iHORC" type="github"><diagram id="TfgHOKNdf5pJMgL3n-zC">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-11T16:46:06.781Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36" etag="68ta523KDIzSGEiFMk_W" version="13.9.6" type="github">
+  <diagram id="TfgHOKNdf5pJMgL3n-zC" name="Page-1">
+    <mxGraphModel dx="938" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-1" value="Купувач" style="whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-2" value="Продукт" style="whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-3" value="Продавач" style="whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-4" value="Агент за продажба" style="whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-5" value="Агент-менаџер" style="whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="220" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-6" value="Продавница" style="whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="280" y="500" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-8" value="Категорија" style="whiteSpace=wrap;html=1;align=center;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="120" y="310" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-9" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wWgSoBHwEOJvV10ITS4X-9" target="wWgSoBHwEOJvV10ITS4X-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="220" as="sourcePoint" />
+            <mxPoint x="340" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-12" value="1" style="resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="wWgSoBHwEOJvV10ITS4X-11">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="10.34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-13" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wWgSoBHwEOJvV10ITS4X-9" target="wWgSoBHwEOJvV10ITS4X-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="220" as="sourcePoint" />
+            <mxPoint x="630" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wWgSoBHwEOJvV10ITS4X-14" value="N" style="resizable=0;html=1;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="wWgSoBHwEOJvV10ITS4X-13">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="-10.34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
